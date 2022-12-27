@@ -1,9 +1,6 @@
 server:
-    port: 8084
+    port: 8081
 
 spring:
     application:
         name: hello
-    cloud:
-        zookeeper:
-            connect-string: localhost:2181

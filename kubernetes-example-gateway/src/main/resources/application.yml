@@ -5,8 +5,6 @@ spring:
     application:
         name: gateway
     cloud:
-      zookeeper:
-        connect-string: localhost:2181
       gateway:
           routes:
           - id: hello
